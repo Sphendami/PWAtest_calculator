@@ -1,15 +1,16 @@
 {
-    "short_name": "簡易計算機",
     "name": "簡易計算機(PWAのテスト)",
+    "short_name": "簡易計算機",
     "start_url": "https://midreeca.github.io/PWAtest_calculator/",
     "display": "standalone",
     "icons": [
         {
-          "src": "image/icon.png",
-          "type": "image/png",
-          "sizes": "450x450"
+            "src": "image/icon.png",
+            "type": "image/png",
+            "sizes": "450x450"
         }
-      ],
-      "background_color": "#2196F3",
-      "orientation": "natural"
-  }
+    ],
+    "background_color": "#14f571",
+    "theme_color": "#14f571",
+    "orientation": "any"
+}
