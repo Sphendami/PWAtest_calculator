@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易計算機</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>簡易計算機</h1>
+    </header>
+    <div id="main">
+        <div id="calculator">
+            <form>
+                    <table>
+                        <tr>
+                            <td colspan="3"><input type="text" id="display" value="0"></td>
+                            <td><button type="button" onclick="clickClear()">C</button></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button" onclick="clickNum('1')">1</button></td>
+                            <td><button type="button" onclick="clickNum('2')">2</button></td>
+                            <td><button type="button" onclick="clickNum('3')">3</button></td>
+                            <td><button type="button" onclick="clickOpe('+')">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button" onclick="clickNum('4')">4</button></td>
+                            <td><button type="button" onclick="clickNum('5')">5</button></td>
+                            <td><button type="button" onclick="clickNum('6')">6</button></td>
+                            <td><button type="button" onclick="clickOpe('-')">−</button></td>
+                        </tr><tr>
+                            <td><button type="button" onclick="clickNum('7')">7</button></td>
+                            <td><button type="button" onclick="clickNum('8')">8</button></td>
+                            <td><button type="button" onclick="clickNum('9')">9</button></td>
+                            <td><button type="button" onclick="clickOpe('*')">×</button></td>
+                        </tr><tr>
+                            <td><button type="button" onclick="clickNum('0')">0</button></td>
+                            <td><button type="button" onclick="clickDot()">・</button></td>
+                            <td><button type="button" onclick="clickEqual()">=</button></td>
+                            <td><button type="button" onclick="clickOpe('/')">÷</button></td>
+                        </tr>
+                    </table>
+                </form>
+        </div>
+        
+    </div>
+    <footer>
+        <p>Midreeca, 2019</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

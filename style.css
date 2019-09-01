@@ -1,0 +1,40 @@
+body{
+    color: black;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+}
+/*
+#main{
+    border: 1px solid red;
+}
+*/
+
+#calculator{
+    /*border: 1px solid blue;*/
+    width:140px;
+    margin: auto;
+}
+
+#display{
+    width:90px;
+}
+
+button{
+    width:30px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
