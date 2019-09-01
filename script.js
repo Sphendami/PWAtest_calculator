@@ -1,3 +1,8 @@
+if("seviceWorker" in navigator){
+    navigator.serviceWorker.register("sw.js");
+
+}
+
 let display = document.getElementById("display");
 
 let formula = "0";
