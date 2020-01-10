@@ -36,6 +36,7 @@ footer{
 button{
     width:60px;
     height: 60px;
+    background-color: azure;
     font-size: 30px;
     text-align: center;
 }
